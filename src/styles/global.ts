@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
   * {
     margin: 0;
     padding: 0;
@@ -8,8 +11,7 @@ export default createGlobalStyle`
   }
   body {
     background: ${props => props.theme.colors};
-    font-size: 14px;
     color: #000;
-    font-family: sans-serif;
+    font-family: 'Bebas Neue', cursive;
   }
 `;

@@ -5,7 +5,7 @@ export const Container = styled.div`
   background: ${props => props.theme.colors.primary};
   color: ${props => props.theme.colors.text};
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
